@@ -9,7 +9,6 @@ import Swift
 
 func random_array(array: [Int]?) -> Int {
     array?.randomElement() ?? Int.random(in: 1...100)
-
 }
 
 print(random_array(array: [1, 32, 33, 4231, 121]))
