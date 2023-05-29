@@ -44,7 +44,9 @@ do {
     print(myCar.gear)
      try myCar.gears_up()
     print(myCar.gear)
-     try myCar.gears_up()
+    try myCar.gears_down()
+    print(myCar.gear)
+     try myCar.gears_down()
     print(myCar.gear)
 
 }
