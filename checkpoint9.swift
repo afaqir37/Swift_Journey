@@ -12,4 +12,4 @@ func random_array(array: [Int]?) -> Int {
 }
 
 print(random_array(array: [1, 32, 33, 4231, 121]))
-print(random_array(array: nil))
+print(random_array(array: nil)) 
